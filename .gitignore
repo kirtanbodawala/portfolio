@@ -1,3 +1,7 @@
+#PHP Storm
+.idea/*.xml
+.idea/*
+
 # Logs
 logs
 *.log
