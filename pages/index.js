@@ -69,7 +69,7 @@ const HomePage = () => {
         <div>
             <Head>
                 <meta name="description" content= "Full stack software engineer with 4+ years of experience building website with React, PHP and WordPress. Capable of strong leadership." />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <meta name="robots" content= "index, follow" />
                 <title>Kirtan Bodawala - Full Stack Developer</title>
                 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;700&family=Roboto:wght@900&display=swap" rel="stylesheet" />
