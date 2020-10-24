@@ -108,6 +108,14 @@
 }
 
 @media only screen and (min-width: 1200px){
+    .activeBar {
+        margin: auto;
+        width: 45%;
+        height: 4px;
+        background-color: #F26419;
+        transition: width 0.2s linear;
+    }
+
     /* Heading for Parallax Section */
     .parallax h1 {
         font-size: 5vw;
@@ -118,6 +126,15 @@
         width: 10vw;
         border: 3px solid #F26419;
     }
+}
+/* Header Parallax Element Style*/
+.parallax {
+    min-height: 80vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+    text-align: center;
+    border-bottom: 3px solid #F26419;
 }
 
 /* Image for Parallax Section */
@@ -130,20 +147,6 @@
         url("../public/christopher-gower-m_HRfLhgABo-unsplash.jpg");
 }
 
-.profileName h2{
-    margin: auto;
-}
-
-/* Header Parallax Element Style*/
-.parallax {
-    min-height: 80vh;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 50% 50%;
-    text-align: center;
-    border-bottom: 3px solid #F26419;
-}
-
 /* Heading for Parallax Section */
 .parallax h1 {
     color: #FFFFFF;
@@ -153,6 +156,10 @@
     text-transform: uppercase;
     letter-spacing: 0.05em;
     padding-top: 30vh;
+}
+
+.profileName h2{
+    margin: auto;
 }
 
 .profileName{
