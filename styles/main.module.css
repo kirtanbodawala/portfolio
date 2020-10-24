@@ -33,6 +33,15 @@
 }
 
 @media only screen and (max-width: 600px) {
+    /* Header Parallax Element Style*/
+    .parallax {
+        min-height: 80vh;
+        background-size: cover;
+        background-position: 50% 50%;
+        text-align: center;
+        border-bottom: 3px solid #F26419;
+    }
+
     .primaryNav {
         background-color: #FFFFFF;
     }
@@ -50,6 +59,15 @@
 }
 
 @media only screen and (min-width: 600px) and (max-width: 800px) {
+    /* Header Parallax Element Style*/
+    .parallax {
+        min-height: 80vh;
+        background-size: cover;
+        background-position: 50% 50%;
+        text-align: center;
+        border-bottom: 3px solid #F26419;
+    }
+
     .primaryNav {
         background-color: #FFFFFF;
     }
@@ -66,6 +84,16 @@
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1000px) {
+    /* Header Parallax Element Style*/
+    .parallax {
+        min-height: 80vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 50% 50%;
+        text-align: center;
+        border-bottom: 3px solid #F26419;
+    }
+
     .activeBar {
         margin: auto;
         width: 45%;
@@ -87,6 +115,16 @@
 }
 
 @media only screen and (min-width: 1000px) and (max-width: 1200px){
+    /* Header Parallax Element Style*/
+    .parallax {
+        min-height: 80vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 50% 50%;
+        text-align: center;
+        border-bottom: 3px solid #F26419;
+    }
+
     .activeBar {
         margin: auto;
         width: 45%;
@@ -108,6 +146,16 @@
 }
 
 @media only screen and (min-width: 1200px){
+    /* Header Parallax Element Style*/
+    .parallax {
+        min-height: 80vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 50% 50%;
+        text-align: center;
+        border-bottom: 3px solid #F26419;
+    }
+
     .activeBar {
         margin: auto;
         width: 45%;
@@ -126,15 +174,6 @@
         width: 10vw;
         border: 3px solid #F26419;
     }
-}
-/* Header Parallax Element Style*/
-.parallax {
-    min-height: 80vh;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 50% 50%;
-    text-align: center;
-    border-bottom: 3px solid #F26419;
 }
 
 /* Image for Parallax Section */
