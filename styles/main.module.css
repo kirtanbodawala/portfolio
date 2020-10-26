@@ -1,0 +1,206 @@
+.primaryNavLinks {
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 0px !important;
+    letter-spacing: 0.02em;
+    color: rgba(246,174,45,0.8) !important;
+    cursor: pointer;
+}
+
+.primaryNavLinks:hover {
+    color: rgba(246,174,45,1) !important;
+}
+
+.active{
+    color: rgba(246,174,45,1) !important;
+}
+
+.logo {
+    font-family: "Roboto Mono";
+    font-weight: bold;
+    font-style: normal;
+    font-size: xx-large;
+    margin-right: auto;
+    color: #F26419 !important;
+}
+
+.whiteNavBar{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.4s linear;
+}
+
+@media only screen and (max-width: 600px) {
+    /* Header Parallax Element Style*/
+    .parallax {
+        min-height: 80vh;
+        background-size: cover;
+        background-position: 50% 50%;
+        text-align: center;
+        border-bottom: 3px solid #F26419;
+    }
+
+    .primaryNav {
+        background-color: #FFFFFF;
+    }
+
+    /* Heading for Parallax Section */
+    .parallax h1 {
+        font-size: 10vw;
+    }
+
+    .profilePic{
+        margin-top: -15vh;
+        width: 35vw;
+        border: 3px solid #F26419;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    /* Header Parallax Element Style*/
+    .parallax {
+        min-height: 80vh;
+        background-size: cover;
+        background-position: 50% 50%;
+        text-align: center;
+        border-bottom: 3px solid #F26419;
+    }
+
+    .primaryNav {
+        background-color: #FFFFFF;
+    }
+    /* Heading for Parallax Section */
+    .parallax h1 {
+        font-size: 10vw;
+    }
+
+    .profilePic{
+        margin-top: -15vh;
+        width: 25vw;
+        border: 3px solid #F26419;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+    /* Header Parallax Element Style*/
+    .parallax {
+        min-height: 80vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 50% 50%;
+        text-align: center;
+        border-bottom: 3px solid #F26419;
+    }
+
+    .activeBar {
+        margin: auto;
+        width: 45%;
+        height: 4px;
+        background-color: #F26419;
+        transition: width 0.2s linear;
+    }
+
+    /* Heading for Parallax Section */
+    .parallax h1 {
+        font-size: 5vw;
+    }
+
+    .profilePic{
+        margin-top: -15vh;
+        width: 25vw;
+        border: 3px solid #F26419;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px){
+    /* Header Parallax Element Style*/
+    .parallax {
+        min-height: 80vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 50% 50%;
+        text-align: center;
+        border-bottom: 3px solid #F26419;
+    }
+
+    .activeBar {
+        margin: auto;
+        width: 45%;
+        height: 4px;
+        background-color: #F26419;
+        transition: width 0.2s linear;
+    }
+
+    /* Heading for Parallax Section */
+    .parallax h1 {
+        font-size: 10vw;
+    }
+
+    .profilePic{
+        margin-top: -15vh;
+        width: 25vw;
+        border: 3px solid #F26419;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    /* Header Parallax Element Style*/
+    .parallax {
+        min-height: 80vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 50% 50%;
+        text-align: center;
+        border-bottom: 3px solid #F26419;
+    }
+
+    .activeBar {
+        margin: auto;
+        width: 45%;
+        height: 4px;
+        background-color: #F26419;
+        transition: width 0.2s linear;
+    }
+
+    /* Heading for Parallax Section */
+    .parallax h1 {
+        font-size: 5vw;
+    }
+
+    .profilePic{
+        margin-top: -15vh;
+        width: 10vw;
+        border: 3px solid #F26419;
+    }
+}
+
+/* Image for Parallax Section */
+.parallaxImg {
+    background-image:
+        linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+        ),
+        url("../public/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+}
+
+/* Heading for Parallax Section */
+.parallax h1 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding-top: 30vh;
+}
+
+.profileName h2{
+    margin: auto;
+}
+
+.profileName{
+    height: 15vh;
+}
