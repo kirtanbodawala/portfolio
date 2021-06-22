@@ -18,7 +18,7 @@ const Timeline = () => (
                   </span>
                 </div>
                 <div className="content">
-                  <span className="year">1993 - Present</span>
+                  <span className="year">1993</span>
                   <h4 className="title">Born</h4>
                   <p className="description">
                     I introduced myself to the world, early morning of August 9,
