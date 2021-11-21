@@ -9,7 +9,11 @@ import Parallax from './Parallax';
 
 const Homepage = () => (
   <Element name="home" className="element">
-    <Parallax title="FULL STACK DEVELOPER" type="home" />
+    <Parallax
+      data-testid="parallax-home"
+      title="FULL STACK DEVELOPER"
+      type="home"
+    />
     <Container fluid>
       <Row className="justify-content-center text-center">
         <Col sm={3} className="d-block">
@@ -21,6 +25,7 @@ const Homepage = () => (
         </Col>
       </Row>
       <Row className={`justify-content-center ${myStyles.profileName}`}>
+        {/* eslint-disable-next-line jsx-a11y/aria-role */}
         <h2>KIRTAN BODAWALA</h2>
       </Row>
     </Container>

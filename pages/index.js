@@ -80,16 +80,21 @@ const HomePage = () => (
         href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;700&family=Roboto:wght@900&display=swap"
         rel="stylesheet"
       />
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-S0QFRFP1ZN"></script>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-S0QFRFP1ZN"
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <script
-        dangerouslySetInnerHTML={{ __html: `window.dataLayer = window.dataLayer || [];
+        dangerouslySetInnerHTML={{
+          __html: `window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-S0QFRFP1ZN');` }}
+          gtag('config', 'G-S0QFRFP1ZN');`,
+        }}
       />
       <link
         rel="stylesheet"
@@ -101,8 +106,9 @@ const HomePage = () => (
     <NavBar />
     <Homepage />
     <AboutMe />
-    <Timeline />
     {/* <Work /> */}
+    <Timeline />
+
     <Contact />
     <footer className="mt-5 mb-5">
       <SocialMediaIcons />
