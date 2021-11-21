@@ -11,6 +11,7 @@ function Parallax(props) {
     <Jumbotron
       fluid
       className={`${myStyles.parallax} ${myStyles[parallaxImg]} mh-80`}
+      {...props}
     >
       <h1>{`${title}`}</h1>
     </Jumbotron>
