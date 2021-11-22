@@ -8,6 +8,7 @@ import Timeline from '../component/Timeline';
 import Work from '../component/Work';
 import Contact from '../component/Contact';
 import SocialMediaIcons from '../component/SocialMediaIcons';
+import SEO from '../config/seo';
 
 const structuredData = {
   '@context': 'https://schema.org/',
@@ -69,9 +70,40 @@ const structuredData = {
 const HomePage = () => (
   <div>
     <Head>
+      <meta key="description" name="description" content={SEO.description} />
       <meta
-        name="description"
-        content="Full stack software engineer with 4+ years of experience building website with React, PHP and WordPress. Capable of strong leadership."
+        key="twitter:card"
+        name="twitter:card"
+        content={SEO.twitter.cardType}
+      />
+      <meta
+        key="twitter:site"
+        name="twitter:site"
+        content={SEO.twitter.handle}
+      />
+      <meta key="og:url" property="og:url" content={SEO.openGraph.url} />
+      <meta key="og:type" property="og:type" content={SEO.openGraph.type} />
+      <meta key="og:title" property="og:title" content={SEO.openGraph.title} />
+      <meta
+        key="og:description"
+        property="og:description"
+        content={SEO.openGraph.description}
+      />
+      <meta key="og:image" property="og:image" content={SEO.openGraph.image} />
+      <meta
+        key="og:image:width"
+        property="og:image:width"
+        content={SEO.openGraph.imageWidth}
+      />
+      <meta
+        key="og:image:height"
+        property="og:image:height"
+        content={SEO.openGraph.imageHeight}
+      />
+      <meta
+        key="og:locale"
+        property="og:locale"
+        content={SEO.openGraph.locale}
       />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="robots" content="index, follow" />
