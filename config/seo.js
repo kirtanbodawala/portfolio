@@ -1,4 +1,4 @@
-export const DEFAULT_SEO = {
+const SEO = {
   title: 'Kirtan Bodawala - Full Stack Developer',
   description:
     'Full stack software engineer with 4+ years of experience building website with React, PHP and WordPress. Proficient with AWS cloud service and capable of strong leadership.',
@@ -19,3 +19,5 @@ export const DEFAULT_SEO = {
     cardType: 'summary_large_image',
   },
 };
+
+export default SEO;
