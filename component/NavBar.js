@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -21,9 +21,7 @@ const NavBar = () => {
     else setExpand(true);
   };
 
-  React.useEffect(() => {
-    // window is accessible here.
-    console.log('window.innerHeight', window.innerHeight);
+  useEffect(() => {
     if (window.innerHeight > 800 && window.innerHeight < 1100)
       setContactOffset(-400);
     if (window.innerHeight > 1200) setContactOffset(-840);
@@ -89,24 +87,6 @@ const NavBar = () => {
               <Link
                 activeClass={`${myStyles.active}`}
                 className={`${myStyles.primaryNavLinks} nav-link`}
-                to="timeline"
-                spy
-                smooth
-                duration={500}
-                offset={-70}
-                onSetActive={handleSetActive('timeline')}
-                onClick={handleNavEvent}
-              >
-                LIFE
-              </Link>
-              <div
-                className={`${active === 'timeline' ? myStyles.activeBar : ''}`}
-              />
-            </Nav.Item>
-            {/* <Nav.Item>
-              <Link
-                activeClass={`${myStyles.active}`}
-                className={`${myStyles.primaryNavLinks} nav-link`}
                 to="work"
                 spy
                 smooth
@@ -118,9 +98,9 @@ const NavBar = () => {
                 WORK
               </Link>
               <div
-                className={`${active == 'work' ? myStyles.activeBar : ''}`}
+                className={`${active === 'work' ? myStyles.activeBar : ''}`}
               />
-            </Nav.Item> */}
+            </Nav.Item>
             <Nav.Item>
               <Link
                 activeClass={`${myStyles.active}`}

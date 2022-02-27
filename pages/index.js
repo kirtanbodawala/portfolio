@@ -121,6 +121,7 @@ const HomePage = () => (
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
       <script
+        // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{
           __html: `window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -138,8 +139,7 @@ const HomePage = () => (
     <NavBar />
     <Homepage />
     <AboutMe />
-    {/* <Work /> */}
-    <Timeline />
+    <Work />
 
     <Contact />
     <footer className="mt-5 mb-5">
