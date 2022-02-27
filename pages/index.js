@@ -71,7 +71,7 @@ const HomePage = () => (
     <Head>
       <meta
         name="description"
-        content="Full stack software engineer with 4+ years of experience building website with React, PHP and WordPress. Capable of strong leadership."
+        content="Full stack software engineer with 5+ years of experience building website with React, PHP and WordPress. Capable of strong leadership."
       />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta name="robots" content="index, follow" />
