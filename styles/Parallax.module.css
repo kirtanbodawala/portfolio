@@ -92,8 +92,8 @@
 
 /* Image for Parallax Section */
 .homeImg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../public/christopher-gower-m_HRfLhgABo-unsplash.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url("../public/LosAngeles.jpg");
 }
 
 .timelineImg {

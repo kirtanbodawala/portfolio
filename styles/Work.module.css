@@ -1,0 +1,16 @@
+.hr {
+  width: 50%;
+}
+
+.txtFonts {
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.02em;
+  line-height: 2em;
+  color: #000000;
+  font-weight: 200;
+}
+
+.boldTxt {
+  font-weight: bold;
+}

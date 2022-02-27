@@ -17,7 +17,11 @@ const SocialMediaIcons = () => (
       <Col lg={4}>
         <Row>
           <Col>
-            <a href="https://www.facebook.com/kirtanbodawala93" target="_blank">
+            <a
+              href="https://www.facebook.com/kirtanbodawala93"
+              target="_blank"
+              rel="noreferrer"
+            >
               <IconContext.Provider value={{ color: '#4267B2', size: '2em' }}>
                 <div>
                   <GrFacebook />
@@ -26,7 +30,11 @@ const SocialMediaIcons = () => (
             </a>
           </Col>
           <Col>
-            <a href="https://www.instagram.com/kirtanbodawala" target="_blank">
+            <a
+              href="https://www.instagram.com/kirtanbodawala"
+              target="_blank"
+              rel="noreferrer"
+            >
               <IconContext.Provider value={{ color: '#C13584', size: '2em' }}>
                 <div>
                   <GrInstagram />
@@ -35,7 +43,11 @@ const SocialMediaIcons = () => (
             </a>
           </Col>
           <Col>
-            <a href="https://twitter.com/kirtanbodawala" target="_blank">
+            <a
+              href="https://twitter.com/kirtanbodawala"
+              target="_blank"
+              rel="noreferrer"
+            >
               <IconContext.Provider value={{ color: '#1DA1F2', size: '2em' }}>
                 <div>
                   <GrTwitter />
@@ -47,6 +59,7 @@ const SocialMediaIcons = () => (
             <a
               href="https://www.linkedin.com/in/kirtan-bodawala"
               target="_blank"
+              rel="noreferrer"
             >
               <IconContext.Provider value={{ color: '#2867B2', size: '2em' }}>
                 <div>
@@ -56,7 +69,11 @@ const SocialMediaIcons = () => (
             </a>
           </Col>
           <Col>
-            <a href="https://github.com/kirtanbodawala" target="_blank">
+            <a
+              href="https://github.com/kirtanbodawala"
+              target="_blank"
+              rel="noreferrer"
+            >
               <IconContext.Provider value={{ color: '#000000', size: '2em' }}>
                 <div>
                   <GrGithub />
