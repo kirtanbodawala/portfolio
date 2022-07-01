@@ -35,10 +35,11 @@ const Contact = () => {
         message: '',
       });
     } else {
-      msg =
-        'Encountered an error when submitting your message. Please try again in few minutes';
       setStatus({
-        info: { error: true, msg },
+        info: {
+          error: true,
+          msg: 'Encountered an error when submitting your message. Please try again in few minutes',
+        },
       });
     }
   };
@@ -86,8 +87,8 @@ const Contact = () => {
         <Row className="justify-content-md-center">
           <Col lg="6">
             <Form onSubmit={handleOnSubmit}>
-              <Form.Row>
-                <Form.Group as={Col} controlId="name">
+              <Row>
+                <Form.Group as={Col} className="mb-3" controlId="name">
                   <Form.Control
                     onChange={handleOnChange}
                     required
@@ -95,7 +96,7 @@ const Contact = () => {
                     placeholder="Name"
                   />
                 </Form.Group>
-                <Form.Group as={Col} controlId="email">
+                <Form.Group as={Col} className="mb-3" controlId="email">
                   <Form.Control
                     onChange={handleOnChange}
                     required
@@ -104,13 +105,14 @@ const Contact = () => {
                     placeholder="Enter email"
                   />
                 </Form.Group>
-              </Form.Row>
+              </Row>
 
               <Form.Group controlId="subject">
                 <Form.Control
                   onChange={handleOnChange}
                   value={inputs.subject}
                   placeholder="Subject"
+                  className="mb-3"
                 />
               </Form.Group>
 
@@ -121,6 +123,7 @@ const Contact = () => {
                   as="textarea"
                   placeholder="Message"
                   rows="6"
+                  className="mb-3"
                 />
               </Form.Group>
 

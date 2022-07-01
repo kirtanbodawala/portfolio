@@ -6,6 +6,7 @@
     background-position: 50% 50%;
     text-align: center;
     border-bottom: 3px solid #f26419;
+    margin-bottom: 2rem;
   }
 
   /* Heading for Parallax Section */
@@ -22,6 +23,7 @@
     background-position: 50% 50%;
     text-align: center;
     border-bottom: 3px solid #f26419;
+    margin-bottom: 2rem;
   }
 
   /* Heading for Parallax Section */
@@ -39,6 +41,7 @@
     background-position: 50% 50%;
     text-align: center;
     border-bottom: 3px solid #f26419;
+    margin-bottom: 2rem;
   }
 
   /* Heading for Parallax Section */
@@ -56,6 +59,7 @@
     background-position: 50% 50%;
     text-align: center;
     border-bottom: 3px solid #f26419;
+    margin-bottom: 2rem;
   }
   /* Heading for Parallax Section */
   .parallax h1 {
@@ -72,6 +76,7 @@
     background-position: 50% 50%;
     text-align: center;
     border-bottom: 3px solid #f26419;
+    margin-bottom: 2rem;
   }
 
   /* Heading for Parallax Section */
@@ -79,16 +84,6 @@
     font-size: 5vw;
   }
 }
-
-/* Header Parallax Element Style*/
-/* .parallax {
-  min-height: 80vh;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: 50% 50%;
-  text-align: center;
-  border-bottom: 3px solid #f26419;
-} */
 
 /* Image for Parallax Section */
 .homeImg {
@@ -106,11 +101,6 @@
     url("../public/annie-spratt-FSFfEQkd1sc-unsplash.jpg");
 }
 
-/* Heading for Parallax Section
-.parallax h1 {
-  font-size: 5vw;
-} */
-
 /* Heading for Parallax Section */
 .parallax h1 {
   color: #ffffff;
@@ -119,6 +109,6 @@
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  padding-top: 30vh;
+  padding-top: 36vh;
   cursor: default;
 }

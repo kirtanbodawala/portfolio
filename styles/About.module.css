@@ -14,7 +14,7 @@
     width: 171px;
     height: 180px;
     padding: 1em;
-  }
+ }
 }
 
 @media only screen and (min-width: 800px) {
@@ -22,7 +22,15 @@
     width: 171px;
     height: 180px;
     padding: 1em;
-  }
+ }
+}
+.hr{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  overflow: visible;
+  background-color: #fff;
 }
 
 .hrText {
@@ -51,7 +59,6 @@
   position: relative;
   display: inline-block;
   padding: 0 0.5em;
-  line-height: 1.5em;
   color: #000000;
   background-color: #fcfcfa;
   font-size: 24px;

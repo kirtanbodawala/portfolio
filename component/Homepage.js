@@ -11,7 +11,7 @@ const Homepage = () => (
   <Element name="home" className="element">
     <Parallax title="FULL STACK DEVELOPER" type="home" />
     <Container fluid>
-      <Row className="justify-content-center text-center">
+      <Row className="justify-content-sm-center text-center">
         <Col sm={3} className="d-block">
           <Image
             src="kirtan-circle.png"
@@ -20,8 +20,10 @@ const Homepage = () => (
           />
         </Col>
       </Row>
-      <Row className={`justify-content-center ${myStyles.profileName}`}>
-        <h2>KIRTAN BODAWALA</h2>
+      <Row
+        className={`justify-content-sm-center text-center ${myStyles.profileName}`}
+      >
+        <h2 style={{ fontSize: '2rem' }}>KIRTAN BODAWALA</h2>
       </Row>
     </Container>
   </Element>
