@@ -110,3 +110,7 @@
 .profileName {
   height: 15vh;
 }
+
+.primaryNav {
+  padding: 0.5rem 1rem;
+}

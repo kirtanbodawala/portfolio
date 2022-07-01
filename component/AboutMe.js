@@ -15,8 +15,8 @@ const AboutMe = () => {
         <Row className="justify-content-center">
           <Col xs={12}>
             <p className={`${aboutStyles.aboutMeTxt}`}>
-              {`I am innovative optimized solution seeker and a full stack software
-            engineer with ${totalExperience}+ years of experience in architecting, designing and
+              {`I am innovative optimized solution seeker and a senior full stack software
+            developer with ${totalExperience}+ years of experience in architecting, designing and
             implementing new products, technical solutions and feature
             improvements for different projects by using PHP, Wordpress and
             NextJS.`}
@@ -33,7 +33,10 @@ const AboutMe = () => {
         <br />
 
         <div className={`${aboutStyles.prog} mt-5`}>
-          <hr className={`${aboutStyles.hrText}`} data-content="PROGRAMMING" />
+          <hr
+            className={`${aboutStyles.hrText} ${aboutStyles.hr}`}
+            data-content="PROGRAMMING"
+          />
           <Row className="">
             <Col xs={6} md={4} lg={2}>
               <Figure>
@@ -167,7 +170,7 @@ const AboutMe = () => {
         </div>
         <div className={`${aboutStyles.prog} mt-5`}>
           <hr
-            className={`${aboutStyles.hrText}`}
+            className={`${aboutStyles.hrText} ${aboutStyles.hr}`}
             data-content="DEVELOPMENT TOOLS"
           />
           <Row className="justify-content-center">
@@ -239,7 +242,7 @@ const AboutMe = () => {
         </div>
         <div className={`${aboutStyles.prog} mt-5`}>
           <hr
-            className={`${aboutStyles.hrText}`}
+            className={`${aboutStyles.hrText} ${aboutStyles.hr}`}
             data-content="OPERATING SYSTEMS"
           />
           <Row className="justify-content-center">

@@ -46,8 +46,11 @@ const NavBar = () => {
           KB
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto">
+        <Navbar.Collapse
+          className="justify-content-end"
+          id="responsive-navbar-nav"
+        >
+          <Nav className="">
             <Nav.Item>
               <Link
                 activeClass={`${myStyles.active}`}

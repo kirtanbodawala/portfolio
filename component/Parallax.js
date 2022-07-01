@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Jumbotron from 'react-bootstrap/Jumbotron';
+import { Container } from 'react-bootstrap';
 import myStyles from '../styles/Parallax.module.css';
 
 function Parallax(props) {
@@ -8,13 +8,13 @@ function Parallax(props) {
   const parallaxImg = `${type}Img`;
 
   return (
-    <Jumbotron
+    <Container
       fluid
       className={`${myStyles.parallax} ${myStyles[parallaxImg]} mh-80`}
       {...props}
     >
       <h1>{`${title}`}</h1>
-    </Jumbotron>
+    </Container>
   );
 }
 

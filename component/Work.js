@@ -10,15 +10,6 @@ import useViewPort from '../hooks/viewPort.hook';
 
 const workPlaces = [
   {
-    name: 'Fox Dealer',
-    logo: 'FoxLogo_squared_orange_icon_black_lettering.png',
-    position: 'Computer Systems Engineer',
-    date: 'March 2017 - January 2022',
-    years: '2017 - 2022',
-    description:
-      'I started as a Junior developer and in two years I transitioned into Computer Systems Engineer(Lead Developer). I was responsible for the development of the back-end of the platform, worked on building custom wordpress plugins and themes for clients. I also managed the core architecture of the platform, and was also responsible for new development of the platform. I took full responsibility on onboarding/integrating new OEMs to our platform. I was also in charge of onboarding and mentoring new developers. I am really proud of the e-commerce project that I architect for General Motors Canada to launch their future models.',
-  },
-  {
     name: 'SADA Systems',
     logo: 'SADA_logo.png',
     position: 'Senior Software Developer',
@@ -26,6 +17,15 @@ const workPlaces = [
     years: '2022 - Present',
     description:
       'Working on projects with applications in various stages of development, ranging from discovery and architecture processes, soup-to-nuts development of an application, or consulting on individual features for our customers. Responsible for collaborating with solution architects, product managers, and UX/UI designers to define the requirements for high-quality user experiences. I am also responsible for the development of the front-end of the platform and the implementation of new features and bug fixes. Developing repeatable processes, solutions, or products that enable SADA and its customers to work more efficiently.',
+  },
+  {
+    name: 'Fox Dealer',
+    logo: 'FoxLogo_squared_orange_icon_black_lettering.png',
+    position: 'Computer Systems Engineer',
+    date: 'March 2017 - January 2022',
+    years: '2017 - 2022',
+    description:
+      'I started as a Junior developer and in two years I transitioned into Computer Systems Engineer(Lead Developer). I was responsible for the development of the back-end of the platform, worked on building custom wordpress plugins and themes for clients. I also managed the core architecture of the platform, and was also responsible for new development of the platform. I took full responsibility on onboarding/integrating new OEMs to our platform. I was also in charge of onboarding and mentoring new developers. I am really proud of the e-commerce project that I architect for General Motors Canada to launch their future models.',
   },
 ];
 
